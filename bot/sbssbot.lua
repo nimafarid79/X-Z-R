@@ -239,18 +239,18 @@ function create_config( )
     "time",
     "welcome"
     },
-    sudo_users = {122774063},--Sudo users
+    sudo_users = {},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Sbss Bot V2 Beta
     An Advanced Anti Spam Bot Forked On TeleSeed
     
     Develpoed By:
-    @Mr_Ah_S
+    @King_ZR
     Manager:
-    @amiirdada
+    @King_ZR
     Founder:
-    @AmirQuick
+    @King_ZR
     
     Special Thank To:
     Mehr Pouya
@@ -424,7 +424,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id = 26228269
 now = os.time()
 math.randomseed(now)
 started = false
